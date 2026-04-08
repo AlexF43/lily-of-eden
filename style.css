@@ -343,9 +343,12 @@ behold-widget {
 .contact h2 { margin-bottom: 12px; }
 .contact-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin-top: 48px;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .contact-card {
     display: flex;
@@ -436,8 +439,8 @@ behold-widget {
         margin: 0 auto;
     }
     .contact-cards {
-        grid-template-columns: 1fr;
-        max-width: 360px;
+        grid-template-columns: 1fr 1fr;
+        max-width: 480px;
         margin: 48px auto 0;
     }
     .gallery-grid {
