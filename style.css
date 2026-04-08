@@ -137,7 +137,7 @@ p { color: var(--text-mid); font-weight: 300; font-size: 1.05rem; }
 #navbar.scrolled {
     padding: 10px 40px;
 }
-.nav-logo { width: 48px; height: 48px; object-fit: contain; }
+.nav-logo { width: 48px; height: 48px; object-fit: contain; mix-blend-mode: multiply; }
 .nav-logo-link { display: flex; align-items: center; }
 .nav-links {
     display: flex;
@@ -327,20 +327,9 @@ p { color: var(--text-mid); font-weight: 300; font-size: 1.05rem; }
     color: var(--sage);
     margin-bottom: 40px;
 }
-.behold-placeholder {
-    min-height: 200px;
-    background: var(--cream);
-    border-radius: var(--radius);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+behold-widget {
+    display: block;
     margin-bottom: 32px;
-    border: 1.5px dashed var(--sage-light);
-}
-.placeholder-text {
-    color: var(--text-mid);
-    font-style: italic;
-    font-size: 0.9rem;
 }
 
 /* =============================================
@@ -415,8 +404,8 @@ p { color: var(--text-mid); font-weight: 300; font-size: 1.05rem; }
     width: 60px;
     height: 60px;
     object-fit: contain;
-    filter: invert(1) brightness(0.85);
-    opacity: 0.8;
+    mix-blend-mode: screen;
+    opacity: 0.85;
 }
 .footer-name {
     font-family: var(--font-serif);
