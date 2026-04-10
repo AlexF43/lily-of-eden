@@ -1,3 +1,3 @@
 Little florestry website for my friend
 
-[http](https://thelilyofeden.com.au/#about)
+[Website](https://thelilyofeden.com.au/#about)
